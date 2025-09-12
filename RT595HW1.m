@@ -133,6 +133,7 @@ function piApprox = piSpec(s)
             piTryLast = piApprox; % Update the last approximation
         end
     end
+    %graph all the points I stored
     scatter (xRandomsCircle,yRandomsCircle,'.','b')
     hold on;
     scatter(xRandomsNoCircle, yRandomsNoCircle, '.', 'r')
@@ -141,3 +142,4 @@ function piApprox = piSpec(s)
     hold off;
 end
 %% 
+
