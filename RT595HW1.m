@@ -140,6 +140,8 @@ function piApprox = piSpec(s)
     textOnGraph = ["Pi Approximation: " , num2str(piApprox)];
     text(0.5, 0.5, textOnGraph, 'HorizontalAlignment', 'center', 'FontSize', 12, 'Color', 'k')
     hold off;
+    piApprox
 end
 %% 
+
 
